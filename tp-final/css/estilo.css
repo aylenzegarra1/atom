@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@100;400&display=swap');
+
+body{
+  background-color: #D6D6D6;
+}
+
+.contenedor{
+  width: 600px;
+  background-color: white;
+  margin: 50px auto 50px auto;
+  padding: 20px;
+  box-shadow: 0rem 1.75rem 2rem 0rem #bdbdbd;
+}
+
+.dentro{
+  --padding-horizontal: 3rem;
+  --padding-vertical: 3rem;
+  --width: 40rem;
+}
+
+#titulo{
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+  color: black;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0px 0px 11px;
+  margin-top: 11px !important;
+}
+
+#texto1{
+  text-align: left;
+  color: #000000;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.875em;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+}
