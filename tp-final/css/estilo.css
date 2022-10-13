@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@100;400&display=swap');
+
+body{
+  background-color: #D6D6D6;
+}
+
+.contenedor{
+  width: 600px;
+  background-color: white;
+  margin: 50px auto 50px auto;
+  padding: 20px;
+  box-shadow: 0rem 1.75rem 2rem 0rem #bdbdbd;
+}
+
+.dentro{
+  --padding-horizontal: 3rem;
+  --padding-vertical: 3rem;
+  --width: 40rem;
+}
+
+#titulo{
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+  color: black;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0px 0px 11px;
+  margin-top: 11px !important;
+}
+
+#texto1{
+  text-align: left;
+  color: #000000;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.875em;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 1.5rem !important;
+  margin-top: 1.5rem !important;
+}
+
+.wrapper{
+  display: inline-block;
+  width: 75rem;
+  background-color: transparent;
+  max-width: 100%;
+}
+
+.dentro-botones{
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
+  --gutters: 2rem;
+  --padding-horizontal: 2rem;
+  --padding-vertical: 0.25rem;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  vertical-align: top;
+  position: relative;
+  max-width: 100%;
+  border-radius: inherit;
+  text-align: var(--alignment);
+}
+
+
+  ul#botones01.botones {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  #botones01{
+    gap: 0.75rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .botones{
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+#botones01 li a{
+  background-color: #000000;
+  color: #FFFFFF;
+  display: inline-block;
+    width: auto;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    padding: 0 1.1875rem;
+    vertical-align: middle;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.875em;
+    font-weight: 400;
+    border-radius: 0rem;
+    box-shadow: 0rem 0.125rem 0.5rem 0.125rem #c4c4c4;
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
