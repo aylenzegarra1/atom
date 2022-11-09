@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+body{
+  background-color: #D6D6D6;
+}
+
+.contenedor{
+  width: 600px;
+  background-color: white;
+  margin: 50px auto 50px auto;
+  padding: 50px;
+  box-shadow: 0rem 1.75rem 2rem 0rem #bdbdbd;
+}
+
+.cabeza{
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+ul{
+  padding: 0px;
+}
+
+.menu ul{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu2 ul{
+  margin: -15px 10px 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.item-m{
+display: inline-block;
+padding: 10px;
+}
+
+.item-m a{
+  font-family: 'Arial', sans-serif;
+  color: black;
+  padding: 10px;
+}
+
+.item-m a:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 0px 1px 20px 1px #bdbdbd;
+  text-decoration: none;
+}
+
+.prologo{
+  font-family: 'Arial', sans-serif;
+  color: black;
+  margin-top: 50px;
+}
+
+.sobre{
+  font-family: 'Arial', sans-serif;
+  color: black;
+  margin-top: 50px;
+}
+
+.item-s{
+  display: flex;
+  margin: 20px 20px 0px 0px;
+}
+
+.texto-sobre{
+  font-size: 13px;
+}
